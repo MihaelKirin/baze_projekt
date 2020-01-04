@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/dodAkt.css">
+    <title>Dodavanje nove aktivnosti</title>
+    <script src="index.js"></script>
+    <script src="novaAktivnosti.js"></script>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">
+            <form>
+                Tip aktivnosti:<br>
+                <input type='number' id ='tip_aktivnosti'><br>
+                Naziv:<br>
+                <input type='text' id = 'naziv'><br>
+                Opis:<br>
+                <textarea id = 'opis'></textarea><br>
+                Vrijeme početka:<br>
+                <input type ='datetime-local' id = 'vrijeme'><br>
+                Korisnik:<br>
+                <input type = 'integer' id ='user_id'><br>
+                Tim: <br>
+                <input type ='number' id = 'tim'><br>
+                <input type ='submit' onclick=dodavanjeAktivnosti();><br>
+            </form>
+            </div>
+      
+
+</div>  
+</body>
+</html>

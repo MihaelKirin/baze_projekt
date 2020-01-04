@@ -1,0 +1,27 @@
+.item1 {
+    grid-area: header;
+    justify-self: center;
+    font-family: Arial Black;
+    font-size: 30px;
+}
+.item2 {
+    grid-area: menu;
+    justify-self: left;
+    font-family: Arial Black;
+}
+.item3 {
+    grid-area: main;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+      'header header header header header header header header'
+      'menu main main main main main main main'
+      'menu main main main main main main main';
+    grid-gap: 40px;
+}
+
+.button {
+    border-radius: 4px;
+}
